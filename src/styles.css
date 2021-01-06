@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  font-family: roboto;
+  margin: 0;
+  background: url("background.png") #2e1aad;
+  overflow: auto;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin: 30px 0 0 0;
+  width: 80%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 508px;
+  width: 376px;
+  right: 168px;
+  top: 120px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px #1f1f1f;
+}
+
+li {
+  padding: 10px;
+  /* background-color: gray; */
+}
